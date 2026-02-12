@@ -1,0 +1,28 @@
+body {
+    background: #312e2b;
+    color: white;
+    font-family: Arial;
+    margin: 0;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+}
+
+#board {
+    width: 500px;
+}
+
+.panel {
+    width: 300px;
+    margin-left: 40px;
+    background: #262421;
+    padding: 20px;
+    border-radius: 8px;
+}
+
+.highlight-sacrifice {
+    background: radial-gradient(red, transparent);
+}
